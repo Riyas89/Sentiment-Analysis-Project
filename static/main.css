@@ -1,0 +1,23 @@
+body {
+    background-color: #fdfdfd;
+    color: #080808;
+    font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+.button {
+
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.button:hover {
+    background-color: #a36825;
+    color: white;
+}

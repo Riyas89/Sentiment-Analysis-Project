@@ -1,0 +1,22 @@
+<html>  
+<head>  
+    <title>Uploading & Reading CSV file</title>  
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='main.css') }}">
+    <style>
+        body {
+          background-image: url(" {{url_for('static',filename='bg.png')}}");
+        }
+        </style>
+</head>  
+<body>  
+    <br>
+    <br>
+    <br>
+    <center><h1 style="color:black;">Choose csv file to upload</h1></center>
+    <form method = "POST" enctype="multipart/form-data" action = "/">    
+      <center><h4>  <input type="file" name="file" accept=".csv"> <input type = "submit" value="Upload"> </h4> </center>
+        
+    </form>
+
+</body>  
+</html>
